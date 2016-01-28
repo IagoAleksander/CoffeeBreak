@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout that will work as a ListView adapter -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- The Layout will display an image in the left side... -->
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <!-- the name of the item in the center... -->
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <!-- and the price in the right -->
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

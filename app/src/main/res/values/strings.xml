@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Coffee Break</string>
+    <string name="title_activity_splash_screen">Splash</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="coffeeBreak_logo">CoffeeBreak logo</string>
+
+    <!-- StringArray that defines the options for the main menu -->
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Foods</item>
+        <item>Store</item>
+    </string-array>
+
+    <!-- StringArray that defines the titles of the sections -->
+    <string-array name="titles">
+        <item>Home</item>
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Store</item>
+        <item>Your Order</item>
+    </string-array>
+
+    <string name="action_view_order">View Order</string>
+</resources>

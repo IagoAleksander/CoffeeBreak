@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <!-- ImageView that shows the store photo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:id="@+id/photo"
+        android:src="@drawable/shop"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp" />
+
+    <!-- TextView that displays the store name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Little Ealing Store" />
+
+    <!-- TextView that displays the store adress info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Adress:\n    6 The Quadrant, Little Ealing Ln\n    London W5 4EE\n    United Kingdom\n
+        \nPhone:\n    +44 20 8585 0233\n\n Opening Times:\n    Everyday from 6h to 20h" />
+
+    <!-- Button that goes back to the start screen -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/back_button"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>
